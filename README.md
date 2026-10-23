@@ -43,13 +43,13 @@ A small embedded project that reads temperature and humidity from a DHT11 sensor
 | 1 | VSS | GND |
 | 2 | VDD | 5V |
 | 3 | V0 | Contrast (resistors) |
-| 4 | RS | [GPIO pin] |
+| 4 | RS | PC1 |
 | 5 | RW | GND (write-only) |
-| 6 | E | [GPIO pin] |
-| 11 | D4 | [GPIO pin] |
-| 12 | D5 | [GPIO pin] |
-| 13 | D6 | [GPIO pin] |
-| 14 | D7 | [GPIO pin] |
+| 6 | E  | PC0 |
+| 11 | D4 | PA0 |
+| 12 | D5 | PA1 |
+| 13 | D6 | PA4   |
+| 14 | D7 | PB0 |
 | 15 | A | Backlight anode (through resistor if needed) |
 | 16 | K | GND |
 
